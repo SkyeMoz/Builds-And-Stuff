@@ -62,7 +62,7 @@ end
 
 -- TOOL CREATION
 local tool = Instance.new("Tool")
-tool.Name = "Dirt"
+tool.Name = "Grass"
 tool.RequiresHandle = false
 tool.TextureId = "rbxassetid://10505724478"
 tool.Parent = player:WaitForChild("Backpack")

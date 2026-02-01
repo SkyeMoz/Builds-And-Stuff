@@ -62,7 +62,7 @@ end
 
 -- TOOL CREATION
 local tool = Instance.new("Tool")
-tool.Name = "Dirt 1"
+tool.Name = "Dirt"
 tool.RequiresHandle = false
 tool.TextureId = "rbxassetid://17551759257"
 tool.Parent = player:WaitForChild("Backpack")
@@ -479,4 +479,4 @@ player.AncestryChanged:Connect(function()
             ContextActionService:UnbindAction("ActionToggleEquip")
         end)
     end
-end).
+end)
